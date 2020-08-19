@@ -66,12 +66,43 @@
       <img src="ephemera/dll-class-poster.png" alt="dll-class-poster">
     </section>
 
+    <section tabindex="0" class="dll-web-zine sticky poetic-edge">
+      <img src="ephemera/dll-web-zine.png" alt="dll-web-zine">
+    </section>
+
     <section tabindex="0" class="computer-sunset sticky poetic-edge">
       <img src="ephemera/computer-sunset.png" alt="computer-sunset">
     </section>
 
+    <section tabindex="0" class="markov-chain-generated-love-poem sticky poetic-edge">
+      <div class="flip-card">
+        <div class="flip-card-inner">
+          <div class="flip-card-front">
+            <pre class="soup-description">
+              <span class="soup-title">A BeautifulLoveSoup</span>
+              <p>an algorithm that generates new love poems trained on a Markov model of love poems web scraped from the poetry foundation with BeautifulSoup and Selenium</p>
+            </pre>
+            <img class="markov-poem-img" width="90%" src="ephemera/computational-poetry-2.png" alt="generated-love-poem 2">
+            <br>
+            <br>
+            <img class="markov-poem-img" width="75%" src="ephemera/computational-poetry-1.png" alt="generated-love-poem 1">
+          </div>
+          <div class="flip-card-back">
+            <video id="code-video" autoplay="autoplay" loop>
+              <source id="video_source" src="ephemera/web-scrape-poetry-4x.mp4" type="video/mp4">
+            </video>
+          </div>
+        </div>
+      </div>
+      <br>
+      <br>
+      <a class="btn-link" href="https://a-beautiful-love-soup.glitch.me" target="_blank">serve me up</a>
+      <!-- <button type="button" name="button" class="button">Show me love</button> -->
+    </section>
+
     <section tabindex="0" class="zines-as-loving-practice-zoom-selfie sticky poetic-edge">
       <img src="ephemera/zoom-selfie.png" alt="dll-wed-class-zoom-selfie">
+      <a href="https://digitallovelanguages.github.io/" target="_blank">Landscapes of Love</a>
     </section>
 
     <section tabindex="0" class="interconnected-missed-connections sticky poetic-edge">
@@ -87,6 +118,14 @@
         <audio controls>
           <source src="ephemera/sonnet-for-Alliah-audio-files/1.mp3" type="audio/mp3">
         </audio>
+    </section>
+
+    <section tabindex="0" class="emergent-collective-dll sticky poetic-edge">
+        <img src="ephemera/google-slides-DLL.png" alt="Responses to DLL">
+    </section>
+
+    <section tabindex="0" class="computer-garden-collage sticky poetic-edge">
+      <img src="ephemera/recycled-computer-garden.jpg" alt="computer-garden-collage">
     </section>
 
     <section tabindex="0" class="folder-poems sticky poetic-edge">
@@ -116,14 +155,6 @@
       </div>
     </section>
 
-    <section tabindex="0" class="emergent-collective-dll sticky poetic-edge">
-        <img src="ephemera/google-slides-DLL.png" alt="Responses to DLL">
-    </section>
-
-    <section tabindex="0" class="computer-garden-collage sticky poetic-edge">
-      <img src="ephemera/recycled-computer-garden.jpg" alt="computer-garden-collage">
-    </section>
-
     <section tabindex="0" class="love-quote sticky poetic-edge">
         <blockquote>
           “Love, not just as a feeling one has,but also as a marker for a whole constellation of things that one wants to experience extremely.<br>
@@ -133,33 +164,6 @@
           for a transformational environment.”<br><br>
           - Lauren Berlant
         </blockquote>
-    </section>
-
-    <section tabindex="0" class="markov-chain-generated-love-poem sticky poetic-edge">
-      <div class="flip-card">
-        <div class="flip-card-inner">
-          <div class="flip-card-front">
-            <pre class="soup-description">
-              <span class="soup-title">A BeautifulLoveSoup</span>
-              an algorithm that generates new love poems trained on a Markov model of love poems web scraped from the poetry foundation with BeautifulSoup and Selenium
-            </pre>
-            <br>
-            <img class="markov-poem-img" width="90%" src="ephemera/computational-poetry-2.png" alt="generated-love-poem 2">
-            <br>
-            <br>
-            <img class="markov-poem-img" width="75%" src="ephemera/computational-poetry-1.png" alt="generated-love-poem 1">
-          </div>
-          <div class="flip-card-back">
-            <video id="code-video" autoplay="autoplay" loop>
-              <source id="video_source" src="ephemera/web-scrape-poetry-4x.mp4" type="video/mp4">
-            </video>
-          </div>
-        </div>
-      </div>
-      <br>
-      <br>
-      <a class="btn-link" href="https://a-beautiful-love-soup.glitch.me" target="_blank">serve me up</a>
-      <!-- <button type="button" name="button" class="button">Show me love</button> -->
     </section>
 
     <section tabindex="0" class="love-letter-to-dll sticky poetic-edge">
@@ -217,6 +221,14 @@
       }
 
       x[slideIndex-1].style.display = "block";
+    }
+  </script>
+  <script>
+    function preventHide(){
+      $('.btn-link').click(function(event) {
+          event.preventDefault();
+          event.stopPropagation();
+      });
     }
   </script>
   <script type="application/javascript">
