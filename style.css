@@ -35,9 +35,9 @@ pre {
 }
 
 a {
-  color: blue;
+  color: royalblue;
   text-decoration: none;
-  cursor:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'  width='100' height='120' viewport='0 0 100 100' style='fill:black;font-size:60px;'><text y='50%'>🍑</text></svg>") 16 0,auto; /*!emojicursor.app*/
+  cursor:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'  width='50' height='60' viewport='0 0 100 100' style='fill:black;font-size:30px;'><text y='50%'>❤️</text></svg>") 16 0,auto;
 }
 
 .sticky {
@@ -45,28 +45,28 @@ a {
   top: 0;
   left: 0;
   height: 100%;
-  overflow: scroll;
-  -webkit-overflow-scrolling: touch;
+  /* overflow: scroll;
+  -webkit-overflow-scrolling: touch; */
   cursor:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'  width='50' height='60' viewport='0 0 100 100' style='fill:black;font-size:30px;'><text y='50%'>❤️</text></svg>") 16 0,auto;
   width: 100%;
 }
 
-.home img {
+/* .home img {
   width: 100%;
   height: 100%;
-}
+} */
 
-.credits {
-  font-size: 1.5em;
+.home {
+  font-size: 1em;
   padding: 30px;
   border: 3px solid black;
   background-color: gold;
   display: block;
-  width: 60%;
+  width: 30%;
   height: auto;
   position: absolute;
   left: 50px;
-  top: 40px;
+  top: 50px;
 }
 
 .it-begins {
@@ -173,12 +173,6 @@ a {
 .folder-poem-gallery img {
   width: 100%;
   height: 100%;
-}
-
-a.btn-link{
-  background-color: white;
-  padding: 20px;
-  border-radius: 3px solid black;
 }
 
 button{
@@ -297,7 +291,7 @@ button.btn-display-right:hover {
   position: absolute;
   top: 50%;
   left: 40%;
-  width: 20%;
+  width: 15%;
   height: auto;
   padding: 50px;
 }
@@ -309,7 +303,7 @@ button.btn-display-right:hover {
   top: 12%;
   left: 25%;
   width: 800px;
-  height: 650px;
+  height: 600px;
   padding: 20px;
 }
 
@@ -330,7 +324,7 @@ button.btn-display-right:hover {
   transition: transform 0.8s;
   transform-style: preserve-3d;
   border: 3px solid black;
-  padding: 20px;
+  /* padding: 20px; */
 }
 
 /* Do an horizontal flip when you move the mouse over the flip box container */
@@ -341,7 +335,7 @@ button.btn-display-right:hover {
 /* Position the front and back side */
 .flip-card-front, .flip-card-back {
   position: absolute;
-  width: 100%;
+  width: 90%;
   height: 100%;
   -webkit-backface-visibility: hidden; /* Safari */
   backface-visibility: hidden;
@@ -357,15 +351,28 @@ button.btn-display-right:hover {
 .flip-card-back {
   background-color: purple;
   transform: rotateY(180deg);
+  padding-right: 80px;
 }
 
 .markov-poem-img{
   padding-left: 20px;
 }
 
-.soup-description {
+.soup-title {
   font-family: 'syneextra';
   font-size: 1.5em;
+}
+
+.soup-description {
+  font-family: aktiv-grotesk-extended, sans-serif;
+}
+
+a.btn-link{
+  background-color: seashell;
+  padding: 15px;
+  color: black;
+  font-size: 1em;
+  border: 3px solid black;
 }
 
 video {
