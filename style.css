@@ -1,0 +1,414 @@
+@font-face {
+    font-family: 'syneextra';
+    src: url('syne-extra-webfont.woff2') format('woff2'),
+         url('syne-extra-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+  padding: 0 20px;
+  font-family: 'syneextra';
+  color: black;
+  font-size: 1em;
+  height: 100vh;
+  /* overflow: hidden; */
+}
+
+h1 {
+  font-family: 'syneextra';
+  padding-bottom: 0px;
+}
+
+p {
+  font-family: aktiv-grotesk-extended, sans-serif;
+  font-size: 1.25em;
+}
+
+pre {
+  text-align: left;
+  padding: 0px 20px;
+  width: 100%;
+  white-space: pre-line;
+  max-width: 80%;
+  word-wrap: break-word;
+}
+
+a {
+  color: blue;
+  text-decoration: none;
+  cursor:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'  width='100' height='120' viewport='0 0 100 100' style='fill:black;font-size:60px;'><text y='50%'>🍑</text></svg>") 16 0,auto; /*!emojicursor.app*/
+}
+
+.sticky {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  overflow: scroll;
+  -webkit-overflow-scrolling: touch;
+  cursor:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'  width='50' height='60' viewport='0 0 100 100' style='fill:black;font-size:30px;'><text y='50%'>❤️</text></svg>") 16 0,auto;
+  width: 100%;
+}
+
+.home img {
+  width: 100%;
+  height: 100%;
+}
+
+.credits {
+  font-size: 1.5em;
+  padding: 30px;
+  border: 3px solid black;
+  background-color: gold;
+  display: block;
+  width: 60%;
+  height: auto;
+  position: absolute;
+  left: 50px;
+  top: 40px;
+}
+
+.it-begins {
+  border: 3px solid black;
+  background-color: cyan;
+  color: black;
+  padding: 100px 120px;
+  width: 40%;
+  height: auto;
+}
+
+.dll-prompt {
+  border: 3px solid black;
+  background-color: orchid;
+  font-size: 3em;
+  color: black;
+  position: absolute;
+  top: 65%;
+  left: 3%;
+  width: 40%;
+  height: auto;
+}
+
+.love-quote {
+  border: 3px solid black;
+  background-color: yellow;
+  font-size: 1.5em;
+  color: black;
+  position: absolute;
+  top: 5%;
+  left: 50%;
+  width: 30%;
+  height: auto;
+}
+
+.computer-garden-collage {
+  border: 3px solid black;
+  background-color: pink;
+  position: absolute;
+  top: 50%;
+  left: 10%;
+  right: 80%;
+  width: 25%;
+  height: auto;
+  padding: 20px;
+}
+
+.computer-garden-collage img {
+  width: 100%;
+  height: 100%;
+}
+
+.emergent-collective-dll {
+  border: 3px solid black;
+  background-color: aquamarine;
+  display: block;
+  width: auto;
+  height: auto;
+}
+
+.emergent-collective-dll img {
+  padding: 50px;
+}
+
+.mixing-poetry-for-alliah {
+  border: 3px solid black;
+  background-color: mediumorchid;
+  position: absolute;
+  top: 70%;
+  left: 70%;
+  width: auto;
+  height: 100px;
+  padding: 50px;
+  text-align: center;
+}
+
+.rose-pixel {
+  border: 3px solid black;
+  background-color: powderblue;
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  width: 30%;
+  height: auto;
+  padding: 30px;
+}
+
+.rose-pixel img {
+  width: 100%;
+  height: 100%;
+}
+
+.folder-poems {
+  border: 3px solid black;
+  background-color: chartreuse;
+  position: absolute;
+  top: 1%;
+  left: 70%;
+  width: 20%;
+  height: auto;
+  padding: 20px 100px;
+}
+
+.folder-poem-gallery img {
+  width: 100%;
+  height: 100%;
+}
+
+a.btn-link{
+  background-color: white;
+  padding: 20px;
+  border-radius: 3px solid black;
+}
+
+button{
+  cursor:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'  width='50' height='60' viewport='0 0 100 100' style='fill:black;font-size:30px;'><text y='50%'>👆🏽</text></svg>") 16 0,auto; /*!emojicursor.app*/
+}
+
+button.folder-poem-gallery-btn {
+  background-color: white;
+  width: 50px;
+  height: 50px;
+  -webkit-transition: background-color .5s ease-out;
+  -moz-transition: background-color .5s ease-out;
+  -o-transition: background-color .5s ease-out;
+  transition: background-color 0.5s ease-out;
+}
+
+button.btn-display-left {
+  position: absolute;
+  top: 50%;
+  left: 5%;
+  transform: translate(0%,-50%);
+}
+
+button.btn-display-left:hover {
+  background-color: black;
+  color: white;
+}
+
+button.btn-display-left:focus {
+  outline:0;
+}
+
+button.btn-display-right {
+  position: absolute;
+  top: 50%;
+  right: 5%;
+  transform: translate(0%,-50%);
+}
+
+button.btn-display-right:focus {
+  outline:0;
+}
+
+button.btn-display-right:hover {
+  background-color: black;
+  color: white;
+}
+
+.zines-as-loving-practice-zoom-selfie {
+  border: 3px solid black;
+  background-color: salmon;
+  position: absolute;
+  top: 5%;
+  left: 15%;
+  width: 70%;
+  height: auto;
+  padding: 0px 20px 0px 20px;
+}
+
+.zines-as-loving-practice-zoom-selfie img {
+  width: 100%;
+  height: 100%;
+}
+
+.interconnected-missed-connections {
+  border: 3px solid black;
+  background-color: springgreen;
+  position: absolute;
+  top: 2%;
+  left: 60%;
+  width: 50%;
+  height: auto;
+  padding: 30px;
+}
+
+.interconnected-missed-connections img {
+  width: 100%;
+  height: 100%;
+}
+
+.computer-sunset {
+  border: 3px solid black;
+  background-color: cornflowerblue;
+  position: absolute;
+  top: 40%;
+  left: 10%;
+  width: 40%;
+  height: auto;
+  padding: 50px;
+}
+
+.computer-sunset img {
+  width: 100%;
+  height: 100%;
+}
+
+.dll-class-description {
+  border: 3px solid black;
+  background-color: red;
+  position: absolute;
+  top: 10%;
+  left: 80%;
+  width: 40%;
+  height: auto;
+  padding: 50px;
+}
+
+.dll-class-description img {
+  width: 100%;
+  height: 100%;
+}
+
+.love-letter-to-dll {
+  border: 3px solid black;
+  background-color: azure;
+  position: absolute;
+  top: 50%;
+  left: 40%;
+  width: 20%;
+  height: auto;
+  padding: 50px;
+}
+
+.markov-chain-generated-love-poem {
+  border: 3px solid black;
+  background-color: purple;
+  position: absolute;
+  top: 12%;
+  left: 25%;
+  width: 800px;
+  height: 650px;
+  padding: 20px;
+}
+
+/* The flip card container - set the width and height to whatever you want. We have added the border property to demonstrate that the flip itself goes out of the box on hover (remove perspective if you don't want the 3D effect */
+.flip-card {
+  background-color: transparent;
+  width: 800px;
+  height: 490px;
+  perspective: 1000px;
+}
+
+/* This container is needed to position the front and back side */
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  /* text-align: center; */
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+  border: 3px solid black;
+  padding: 20px;
+}
+
+/* Do an horizontal flip when you move the mouse over the flip box container */
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+/* Position the front and back side */
+.flip-card-front, .flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden; /* Safari */
+  backface-visibility: hidden;
+}
+
+/* Style the front side (fallback if image is missing) */
+.flip-card-front {
+  background-color: purple;
+  color: seashell;
+}
+
+/* Style the back side */
+.flip-card-back {
+  background-color: purple;
+  transform: rotateY(180deg);
+}
+
+.markov-poem-img{
+  padding-left: 20px;
+}
+
+.soup-description {
+  font-family: 'syneextra';
+  font-size: 1.5em;
+}
+
+video {
+  width: 800px;
+  height: auto;
+}
+
+.button {
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  font-family: 'syneextra';
+  background-color: white;
+  border: 3px solid black;
+}
+
+.ephemera {
+  padding: 3px;
+  width: 100%;
+}
+
+.ephemera img {
+  width: 35%;
+}
+
+.hide {
+  display: none;
+}
+
+.show {
+  display: block;
+}
+
+video#bgVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  width: auto;
+  min-width: 100%;
+  height: auto;
+  min-height: 100%;
+  z-index: -100;
+  background-size: contain;
+}
