@@ -285,22 +285,6 @@ button.btn-display-right:hover {
   height: 100%;
 }
 
-.dll-web-zine{
-  border: 3px solid black;
-  background-color: MediumVioletRed;
-  position: absolute;
-  top: 10%;
-  left: 40%;
-  width: 20%;
-  height: auto;
-  padding: 20px;
-}
-
-.dll-web-zine img {
-  height: 100%;
-  width: 100%;
-}
-
 .love-letter-to-dll {
   border: 3px solid black;
   background-color: azure;
@@ -415,6 +399,22 @@ video {
 
 .ephemera img {
   width: 35%;
+}
+
+.dll-web-zine{
+  border: 3px solid black;
+  background-color: MediumVioletRed;
+  position: absolute;
+  top: 10%;
+  left: 40%;
+  width: 20%;
+  height: auto;
+  padding: 20px;
+}
+
+.dll-web-zine img {
+  height: 100%;
+  width: 100%;
 }
 
 .hide {
